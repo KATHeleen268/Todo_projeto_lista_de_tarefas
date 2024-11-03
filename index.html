@@ -1,27 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo - Listas Tarefas</title>
     <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
+
 <body>
+
     <header class="header_back">
         <div class="Logo">
-           <img src="Assets/Logo.svg"  alt=""> 
+            <img src="Assets/Logo.svg" alt="Logo do to do list">
         </div>
-        
+
     </header>
 
     <main>
-       <section class="tasks">
+        <section class="separe">
 
-       </section> 
+            <input type="text" name="" id="write" placeholder="Adicione uma nova tarefa" class="container">
+            <button type="submit" id="create"> <span>Criar</span class="somente_desktop">
+                <div class="btnadd">
+                    <img src="Assets/PlusCircleRegular.png" id="add">
+                </div>
+            </button>
+        </section>
+
+
+        <section class="tasks">
+
+            <div class="count">
+
+                <p>Tarefas criadas <strong class="purple">16</strong></p>
+                <p >Concluídas <strong class="green">8</strong></p>
+                
+
+            </div>
+
+            <div class="separator"></div>
+            
+                <!-- <ul>
+                    <li>
+                        <div class="card-task">
+                        <img src="Assets/CircleRegular.png" id="finaltask" class="check" alt="">
+                        <p>Essa é uma atividade que você quer fazer </p>
+                        <img src="Assets/TrashRegular.png" class="trash">
+                    </div>
+                    </li>
+                </ul>-->
+<div class="no-tasks">
+                <img src="Assets/ClipboardTextRegular.png" id="clipboard" alt="">
+                <p id="empty"><strong >Você ainda não tem tarefas cadastradas </strong></p>
+                <p id="create">Crie tarefas e organize seus itens a fazer</p>
+            </div>
+        </section>
     </main>
 
 
-    
     <script src="scripts.js"></script>
 </body>
+
 </html>

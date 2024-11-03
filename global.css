@@ -1,11 +1,22 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 0px;
     box-sizing: border-box;
+   /* display: grid;
+    grid-template-rows: 2fr;
+    grid-template-areas: 
+    "header header "
+    "main main"
+    ;*/
+    font-family: Inter;
+}
+
+main{
+    padding: 0 60px;
 }
 
 :root {
-    --purple-light: #DDD2EF;
+    --purple-light: rgb(221, 210, 239);
     --purple-base: #9359F3;
     --purple-dark: #6F3CC3;
     --green-light: #BFE3D0;
@@ -21,3 +32,4 @@
 
     --danger: #C2464D;
 }
+
