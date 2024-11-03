@@ -17,6 +17,8 @@
 
 <body>
 
+    
+
     <header class="header_back">
         <div class="Logo">
             <img src="Assets/Logo.svg" alt="Logo do to do list">
@@ -25,10 +27,11 @@
     </header>
 
     <main>
-        <section class="separe">
+        <div class="container">
+        <section class="input-area">
 
             <input type="text" name="" id="write" placeholder="Adicione uma nova tarefa" class="container">
-            <button type="submit" id="create"> <span>Criar</span class="somente_desktop">
+            <button type="submit" id="create-btn"> <span>Criar</span class="somente_desktop">
                 <div class="btnadd">
                     <img src="Assets/PlusCircleRegular.png" id="add">
                 </div>
@@ -48,23 +51,67 @@
 
             <div class="separator"></div>
             
-                <!-- <ul>
-                    <li>
-                        <div class="card-task">
-                        <img src="Assets/CircleRegular.png" id="finaltask" class="check" alt="">
+                 
+                    <!--<div class="task">
+                        
+                        <img src="Assets/circleregular.svg" id="finaltask" class="status-icon" alt="icone de checkbox">
                         <p>Essa é uma atividade que você quer fazer </p>
-                        <img src="Assets/TrashRegular.png" class="trash">
+                        <img src="Assets/TrashRegular.png" class="trash-icon" alt="icone de deletar ">
+                    
                     </div>
-                    </li>
-                </ul>-->
-<div class="no-tasks">
+
+                    <div class="task">
+                        
+                        <img src="Assets/circleregular.svg" id="finaltask" class="status-icon" alt="icone de checkbox">
+                        <p>Essa é uma atividade que você quer fazer </p>
+                        <img src="Assets/TrashRegular.png" class="trash-icon" alt="icone de deletar ">
+                    
+                    </div>
+
+                    <div class="task">
+                        
+                        <img src="Assets/circleregular.svg" id="finaltask" class="status-icon" alt="icone de checkbox">
+                        <p>Essa é uma atividade que você quer fazer </p>
+                        <img src="Assets/TrashRegular.png" class="trash-icon" alt="icone de deletar ">
+                    
+                    </div>
+
+                    <div class="task">
+                        
+                        <img src="Assets/circleregular.svg" id="finaltask" class="status-icon" alt="icone de checkbox">
+                        <p>Essa é uma atividade que você quer fazer </p>
+                        <img src="Assets/TrashRegular.png" class="trash-icon" alt="icone de deletar ">
+                    
+                    </div>
+
+                    <div class="task completed">
+                        
+                        <img src="Assets/checkcircle.svg" id="finaltask" class="status-icon" alt="icone de checkbox">
+                        <p>Essa é uma atividade que você quer fazer </p>
+                        <img src="Assets/TrashRegular.png" class="trash-icon" alt="icone de deletar ">
+                    
+                    </div>
+
+                    <div class="task completed">
+                        
+                        <img src="Assets/checkcircle.svg" id="finaltask" class="status-icon" alt="icone de checkbox">
+                        <p>Essa é uma atividade que você quer fazer </p>
+                        <img src="Assets/TrashRegular.png" class="trash-icon" alt="icone de deletar ">
+                    
+                    </div>
+                
+
+        </section>-->
+
+        <section>
+                <div class="no-tasks">
                 <img src="Assets/ClipboardTextRegular.png" id="clipboard" alt="">
                 <p id="empty"><strong >Você ainda não tem tarefas cadastradas </strong></p>
                 <p id="create">Crie tarefas e organize seus itens a fazer</p>
             </div>
         </section>
     </main>
-
+</div>
 
     <script src="scripts.js"></script>
 </body>

@@ -1,18 +1,22 @@
 * {
-    margin: 0;
+    margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-   /* display: grid;
-    grid-template-rows: 2fr;
-    grid-template-areas: 
-    "header header "
-    "main main"
-    ;*/
     font-family: Inter;
+    
 }
 
+
+
 main{
-    padding: 0 60px;
+    justify-items: center;
+    padding: 0 4.125rem;
+}
+
+@media (max-width: 850px){
+    main{
+       justify-items: center;
+    }
 }
 
 :root {
